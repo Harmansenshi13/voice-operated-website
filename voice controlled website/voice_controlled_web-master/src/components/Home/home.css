@@ -1,0 +1,53 @@
+.container-fluid {
+  background-color: rgba(61, 61, 61, 0.8); /* Light grey background */
+  padding: 20px;
+}
+
+h1.display-4 {
+  font-family: 'Roboto', sans-serif; /* More modern font */
+  color: whitesmoke;
+}
+
+.card {
+  border: none; /* Remove the default border */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #333;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Lifts the card on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.card-img-top {
+  width: 100%; /* Ensures the image fills the card width */
+  height: auto; /* Keeps the aspect ratio */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: orange;
+}
+
+.card-text {
+  color: white;
+}
+
+.card-footer {
+  border-top: none;
+  background-color: #333;
+}
+
+.btn-block {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-block:hover {
+  background-color: #0056b3;
+}

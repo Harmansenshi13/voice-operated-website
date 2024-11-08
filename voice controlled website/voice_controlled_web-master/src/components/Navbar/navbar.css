@@ -1,0 +1,83 @@
+/* Global styles */
+
+  
+  /* Navbar */
+  .navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff !important;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    color: #f8f9fa !important;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    padding: 10px 15px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  /* Change link color on hover */
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+  }
+  
+  /* Active state - highlight and underline */
+  .navbar-nav .nav-item .nav-link.active {
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 3px solid #f1c40f; /* Underline the active item */
+    background-color: rgba(255, 255, 255, 0.2); /* Highlight active link */
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Custom Search Button */
+  .custom-btn {
+    color: #a7a4a3; /* Button text color */
+    background-color: #fff; /* Button background */
+    border: 1px solid #5161ce;
+    border-radius: 30px; /* Rounded corners */
+    padding: 8px 20px; /* Adjusted padding for better sizing */
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: center; /* Center icon and text vertically */
+    text-decoration: none;
+  }
+  
+  .custom-btn:hover {
+    background-color: #e67e22; /* Button hover background */
+    color: #fff; /* Button hover text */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+    border-color: #e67e22;
+  }
+  
+  .fa-search {
+    margin-right: 8px; /* Space between icon and text */
+    text-decoration: none;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 991px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar-nav .nav-item {
+      text-align: center;
+    }
+  
+    .custom-btn {
+      margin-top: 15px;
+      width: 100%;
+    }
+  }
